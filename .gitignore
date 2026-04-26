@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+
+# Frontend build
+frontend/build/
+frontend/.cache/
+
+# Backend uploads & logs
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+backend/logs/*
+!backend/logs/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Test coverage
+coverage/
